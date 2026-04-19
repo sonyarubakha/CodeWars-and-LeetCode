@@ -1,4 +1,8 @@
+'''Sort binary tree by levels kata'''
 def tree_by_levels(node):
+    '''
+    Returns the list with elements from tree sorted by levels.
+    '''
     if not node:
         return []
     res = []
