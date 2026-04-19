@@ -1,5 +1,9 @@
+'''Binary Tree Traversal kata'''
 # Pre-order traversal
 def pre_order(node):
+    '''
+    Pre-order traversal
+    '''
     if not node:
         return []
     res = [node.data]
@@ -9,6 +13,9 @@ def pre_order(node):
 
 # In-order traversal
 def in_order(node):
+    '''
+    In-order traversal
+    '''
     if not node:
         return []
     res = [node.data]
@@ -19,6 +26,9 @@ def in_order(node):
 
 # Post-order traversal
 def post_order(node):
+    '''
+    Post-order traversal
+    '''
     if not node:
         return []
     res = [node.data]
